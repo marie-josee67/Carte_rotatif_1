@@ -1,4 +1,4 @@
-.container{
+#container{
     position: relative;
     width: 250px;
     height: 320px;
@@ -6,7 +6,7 @@
 }
 
 /* La carte */
-.thecard{
+.carte{
     position: absolute;
     width: 100%;
     height: 100%;
@@ -15,18 +15,18 @@
     /*background: yellow;*/
 }
 /* La carte  */
-.thecard:hover{
+.carte:hover{
     transform: rotateY(180deg);
 }
 
 /* Avant de la carte */
-.thefront{
+.avant{
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background: #ffc728;
-    color:#333;
+    background: rgba(128, 128, 128, 0.668);
+    color:aliceblue;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 20px;
@@ -34,13 +34,13 @@
     font-weight: bold;
 }
 /* Arrière de la carte */
-.theback{
+.arriere{
     position: absolute;
     width: 100%;
     height: 100%;
     backface-visibility: hidden;
-    background: #5fcf80;
-    color:#fff;
+    background: rgba(128, 128, 128, 0.66);
+    color:aliceblue;
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 20px;
